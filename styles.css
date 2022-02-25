@@ -1,0 +1,28 @@
+:root {  }
+
+html,
+body {
+	font-family: monospace;
+	font-size: 12pt;
+	margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#notifcontent {
+  width: 400px;
+}
+
+.notif-header {
+  text-align: center;
+}
+
+.form-item {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
