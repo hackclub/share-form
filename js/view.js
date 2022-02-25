@@ -18,11 +18,11 @@ export function view() {
         <span>Email</span>
         <input style="margin:5px;" id="joinslackemail" type="email" placeholder="fiona@hackclub.com"></input>
       </div>
-      <div style="display:flex;justify-content:center;">
-        <button style="margin:3px;" @click=${sharePost}}>LET'S DO THIS</button>
-        <button style="margin:3px;" @click=${()=>open('https://app.slack.com/client/T0266FRGM/C01504DCLVD')}>Sign back in</button>
+      <div class="notif-button">
+        <button @click=${sharePost}}>LET'S DO THIS</button>
       </div>
     </div>
+    <iframe class="scrapbook-embed" src="https://scrapbook.hackclub.com"></iframe>
 	`
 }
 

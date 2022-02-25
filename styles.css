@@ -5,15 +5,35 @@ body {
 	font-family: monospace;
 	font-size: 12pt;
 	margin: 0px;
+}
+
+#root {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 #notifcontent {
   width: 400px;
+  padding-bottom: 20px;
+}
+
+#notifcontent input {
+  font-family: monospace;
+}
+
+.notif-button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notif-button button {
+  font-family: monospace;
 }
 
 .notif-header {
@@ -25,4 +45,11 @@ body {
   align-content: center;
   justify-content: space-between;
   align-items: center;
+}
+
+.scrapbook-embed {
+  border: none;
+  width: 80vw;
+  height: 40vh;
+  border-radius: 5px;
 }

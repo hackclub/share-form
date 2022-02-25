@@ -14,5 +14,6 @@ export const sharePost = () =>
   })
   .then(() => {
       document.getElementById("notifcontent").innerHTML = "Check your email!";
+      document.getElementById("notifcontent").style.textAlign = "center";
   })
   .catch(console.error);
