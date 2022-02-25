@@ -1,6 +1,6 @@
 # Sharing Site for Clubs
 
-Available at [hack.af/share](hack.af/share).
+Available at [hack.af/share](https://hack.af/share).
 
 ## TODO
 
