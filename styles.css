@@ -27,7 +27,7 @@ body {
 }
 
 .notif-button {
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,6 +46,11 @@ body {
   align-content: center;
   justify-content: space-between;
   align-items: center;
+  margin: 5px;
+}
+
+.form-item input {
+  padding: 3px;
 }
 
 .scrapbook-embed {
