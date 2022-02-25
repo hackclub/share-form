@@ -6,8 +6,9 @@ export function view() {
     <div id="notifcontent">
       <h2 class="notif-header">
         We'd love to have you share your project in the
-        <a href="https://scrapbook.hackclub.com/gamelab">Scrapbook!</a>
+        <a target="_blank" href="https://scrapbook.hackclub.com">Scrapbook!</a>
       </h2>
+      <div>Start with the form below to begin posting.</div>
       <hr>
       <div class="form-item">
         <span>Full Name</span>
