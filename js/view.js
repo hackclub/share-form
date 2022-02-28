@@ -5,8 +5,7 @@ export function view() {
 	return html`
     <div id="notifcontent">
       <h2 class="notif-header">
-        We'd love to have you share your project in the
-        <a target="_blank" href="https://scrapbook.hackclub.com">Scrapbook!</a>
+        Share your project with your club leader and the Hack Club community on <a target="_blank" href="https://scrapbook.hackclub.com">Scrapbook</a>!
       </h2>
       <div>Start with the form below to begin posting.</div>
       <hr>
